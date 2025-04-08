@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lista de Filmes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📽️ Filmes Disponíveis</h1>
+    <nav>
+      <a href="inicio.html">Início</a>
+      <a href="filmes.html">Filmes</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="filmes">
+      <article>
+        <img src="imagens/filme2.jpg" alt="Filme 2">
+        <h3>Outro Filme Legal</h3>
+        <a href="detalhes.html">Ver detalhes</a>
+      </article>
+    </section>
+    <button onclick="toggleDarkMode()">🌙 Modo Escuro</button>
+
+  </main>
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark');
+    }
+  </script>
+  
+</body>
+</html>
